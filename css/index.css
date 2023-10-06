@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url('../assets/background/fundo 1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/*------ Barra de Rolagem ------*/
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #FFDBAA;
+    width: 10px;
+}
+
+/*------ Menu ------*/
+
+nav.menu-lateral{
+    width: 71px;
+    height: 100%;
+    background-color: #FFDBAA;
+    padding: 30px 0px 40px 1%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.ul-menu{
+    height: 100%;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li.item-menu.expandir{
+    background-color: #030140;
+    transition: ease-in-out 0.5s;
+}
+
+ul li.ativo{
+    border: solid 2px;
+    border-radius: 40px;
+    margin-right: 5px;
+}
+
+ul li.item-menu a{
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 5%;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 25px;
+    padding: 0 8px;
+}
+
+/*------ Início ------*/
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 90px;
+}
+
+#boas-vindas{
+    color: #FFDBAA;
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 900;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+#sobre-mim{
+    padding: 30px 200px;
+    color: #f8ebd9;
+}
+
+#apresentacao{
+    color: #FFDBAA;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    padding: 20px 100px;
+}

@@ -17,7 +17,7 @@
     font-family: 'Lilita One', cursive;
     font-weight: 900;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -25,14 +25,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .cards{
     background-color: #f0f0f0f0;
     color: #0f0f0f;
     padding: 6px;
-    width: 500px;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
     text-align: center;
     font-size: 16px;
     margin-bottom: 20px;
@@ -41,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .imgs-formacao{
@@ -58,6 +60,14 @@
     #tittle{
         margin-bottom: 50px;
     }
+
+    #div-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .cards{
         display: flex;
         align-items: center;
@@ -65,5 +75,6 @@
         flex-direction: column;
 
         width: 250px;
+        height: 250px;
     }
 }

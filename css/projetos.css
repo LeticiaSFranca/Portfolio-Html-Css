@@ -8,11 +8,11 @@
     flex-direction: column;
     text-align: center;
 
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #tittle{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
     font-size: 50px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
@@ -28,7 +28,7 @@
 
 #btn-github{
     /* background: linear-gradient(-60deg, #dc21db, #4ac0fc); */
-    background-color: #FFDBAA;
+    background-color: #f0f0f0f0;
     width: 200px;
     height: 50px;
     padding: 6px;
@@ -44,13 +44,13 @@
 #btn-github:hover{
     cursor: pointer;
     background: transparent;
-    border: solid 2px #FFDBAA;
+    border: solid 2px #f0f0f0f0;
     color: #f0f0f0;
     transition: ease-in-out 0.5s;
 }
 
 #btn-github>a:hover{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
 }
 
 #btn-github>a{
@@ -60,4 +60,18 @@
 
 #icone-github{
     margin-right: 10px;
+}
+
+@media (max-width: 1080px){
+    #projetos{
+        margin-left: 50px;
+    }
+
+    #descricao-projetos{
+        padding: 10px 90px;
+    }
+
+    #tittle{
+        font-size: 40px;
+    }
 }

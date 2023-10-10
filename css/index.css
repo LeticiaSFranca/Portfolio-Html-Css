@@ -10,9 +10,17 @@
 
 body{
     height: 100vh;
-    background-image: url('../assets/background/fundo 1.png');
-    background-position: center;
-    background-size: cover;
+    background-color: #0f0f0f;
+}
+
+#planta-de-cima{
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+#planta-de-baixo{
+    width: 30%;
+    margin-top: 60px;
 }
 
 /*------ Barra de Rolagem ------*/
@@ -26,16 +34,16 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #FFDBAA;
+    background-color: #f0f0f0f0;
     width: 10px;
 }
 
 /*------ Menu ------*/
 
 nav.menu-lateral{
-    width: 71px;
+    width: 70px;
     height: 100%;
-    background-color: #FFDBAA;
+    background-color: #f0f0f0f0;
     padding: 30px 0px 40px 1%;
 
     position: fixed;
@@ -52,11 +60,11 @@ nav.menu-lateral:hover{
 .ul-menu{
     height: 100%;
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 ul li.item-menu.expandir{
-    background-color: #030140;
+    background-color: #f0f0f0f0;
     transition: ease-in-out 0.5s;
 }
 
@@ -95,29 +103,134 @@ ul li.item-menu a .icon > i {
     justify-content: center;
     flex-direction: column;
 
-    margin-top: 90px;
+    margin-top: 50px;
+}
+
+#meu-card{
+    background: #f0f0f0f0;
+    border: 0;
+    color: #0f0f0f;
+    padding: 20px;
+    width: 270px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#meu-nome{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+#minha-foto{
+    width: 170px;
+    border-radius: 90%;
+}
+
+.icones-inicio{
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#entrar-em-contato{
+    background-color: #0f0f0f;
+    width: 200px;
+    height: 50px;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 0;
+    font-weight: bolder;
+
+    margin-top: 10px;
+}
+
+#entrar-em-contato a{
+    color: #f0f0f0f0;
+    text-decoration: none;
+}
+
+#entrar-em-contato:hover{
+    cursor: pointer;
+    background: transparent;
+    border: solid 2px #0f0f0f;
+    color: #f0f0f0;
+    transition: ease-in-out 0.5s;
+}
+
+#entrar-em-contato>a:hover{
+    color: #0f0f0f;
+}
+
+#icones-inicio{
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 #boas-vindas{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
     font-size: 40px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
     margin-top: 50px;
     text-align: center;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: -10px;
 }
 
 #sobre-mim{
     padding: 30px 200px;
-    color: #f8ebd9;
+    color: #f0f0f0f0;
 }
 
 #apresentacao{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
     font-weight: 300;
     font-size: 17px;
     text-align: center;
     padding: 20px 100px;
+}
+
+@media (max-width: 1080px){
+
+    .inicio{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    #boas-vindas{
+        font-size: 20px;
+    }
+    
+    #apresentacao{
+        padding: 10px 0;
+    }
+
+    #sobre-mim{
+        padding: 30px 50px;
+        text-align: center;
+    }
+
+    #planta-de-cima{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    
+    #planta-de-baixo{
+        width: 50%;
+        margin-top: 30px;
+    }
 }

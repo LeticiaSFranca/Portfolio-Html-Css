@@ -8,11 +8,11 @@
     flex-direction: column;
     text-align: center;
 
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #tittle{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
     font-size: 50px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
@@ -29,7 +29,7 @@
 }
 
 .cards{
-    background-color: #FFDBAA;
+    background-color: #f0f0f0f0;
     color: #0f0f0f;
     padding: 6px;
     width: 500px;
@@ -48,4 +48,22 @@
     width: 150px;
     padding: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 1080px){
+    #formacao{
+        margin-left: 50px;
+    }
+
+    #tittle{
+        margin-bottom: 50px;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+        width: 250px;
+    }
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&family=VT323&display=swap');
 
-#estudando{
+#experiencia{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,72 +21,49 @@
     text-align: center;
 }
 
-#div-cards-estudando-par{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-#div-cards-estudando-impar{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-top: 30px;
-}
-
-.imgs-estudando{
-    width: 70px;
-}
-
-.cards-estudando{
-    background-color: #f0f0f0f0;
-    color: #0f0f0f;
-    padding: 6px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    font-size: 16px; 
-    border-radius: 30px;
-    margin-right: 20px;
-
+#div-cards{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    background-color: #f0f0f0f0;
+    color: #0f0f0f;
+    padding: 6px;
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
 }
 
+.imgs-experiencia{
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+
 @media (max-width: 1080px){
-    #estudando{
-        padding: 0 50px;
+    #experiencias{
+        margin-left: 50px;
     }
 
     #tittle{
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
-
-    #div-cards-estudando-par{
-        margin-left: 150px;
-        margin-right: 150px;
-
+    .cards{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-direction: column;
-    }
 
-    #div-cards-estudando-impar{
-        margin-left: 150px;
-        margin-right: 150px;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
-
-    .cards-estudando{
-        margin-bottom: 10px;
+        width: 250px;
     }
 }

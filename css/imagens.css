@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&family=VT323&display=swap');
+@import '~mdb-ui-kit/css/mdb.min.css';
 
 #imagens{
     display: flex;
@@ -8,14 +9,200 @@
     flex-direction: column;
     text-align: center;
 
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 30px 10px;
+    transition: background 0.4s ease;
 }
 
 #tittle{
-    color: #FFDBAA;
+    color: #f0f0f0f0;
     font-size: 50px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
+}
+
+.subtittles{
+    color: #f0f0f0f0;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+/* Crachás Css */
+
+.divisao-crachas-pares{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divisao-crachas-pares > img{
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Cartões Css */
+#imagem-cartoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imagem-cartoes > div > img{
+    margin-right: 20px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Banners Css */
+#imagens-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imagens-banners > div > img{
+    margin-right: 20px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Logos Css */
+#imagem-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imagem-logos > div > img{
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Botão do Instagram */
+
+#btn-instagram{
+    background-color: #f0f0f0f0;
+    width: 200px;
+    height: 50px;
+    padding: 6px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #0f0f0f;
+    border: 0;
+    font-weight: bolder;
+
+    margin-top: 30px;
+}
+
+#btn-instagram:hover{
+    cursor: pointer;
+    background: transparent;
+    border: solid 2px #f0f0f0f0;
+    color: #f0f0f0;
+    transition: ease-in-out 0.5s;
+}
+
+#btn-instagram>a:hover{
+    color: #f0f0f0f0;
+}
+
+#btn-instagram>a{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+#icone-instagram{
+    margin-right: 10px;
+}
+
+@media (max-width: 1080px){
+    #imagens{
+        margin-left: 50px;
+    }
+    
+    /* Cartões Css */
+    #imagem-cartoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #imagem-cartoes > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #imagem-cartoes > div > img{
+        width: 200px;
+    }
+
+    .divisao-crachas-pares{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .divisao-crachas-pares > img{
+        width: 180px;
+        margin-top: 10px;
+    }
+
+    #imagens-banners{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #imagens-banners > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #imagens-banners > div > img{
+       width: 200px;
+    }
+
+    #imagem-logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #imagem-logos > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #imagem-logos > div > img{
+        width:200px;
+    }
+
+    #apresentacao{
+        padding: 0 100px;
+    }
 }

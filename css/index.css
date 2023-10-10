@@ -213,10 +213,11 @@ ul li.item-menu a .icon > i {
 
     #boas-vindas{
         font-size: 20px;
+        padding: 0 20px;
     }
     
     #apresentacao{
-        padding: 10px 0;
+        padding: 10px 50px;
     }
 
     #sobre-mim{
@@ -232,5 +233,18 @@ ul li.item-menu a .icon > i {
     #planta-de-baixo{
         width: 50%;
         margin-top: 30px;
+    }
+
+    nav.menu-lateral{
+        width: 60px;
+    }
+
+    nav.menu-lateral:hover{
+        width: 200px;
+    }
+
+    .ul-menu{
+        height: 100%;
+        margin-top: 50px;
     }
 }

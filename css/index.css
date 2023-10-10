@@ -247,4 +247,8 @@ ul li.item-menu a .icon > i {
         height: 100%;
         margin-top: 50px;
     }
+
+    ul li.item-menu a{
+        padding: 6px 8%;
+    }
 }

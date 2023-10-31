@@ -192,8 +192,11 @@ ul li.item-menu a .icon > i {
 }
 
 #sobre-mim{
-    padding: 30px 200px;
+    padding: 30px 300px;
     color: #f0f0f0f0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 #apresentacao{
@@ -223,6 +226,7 @@ ul li.item-menu a .icon > i {
     #sobre-mim{
         padding: 30px 50px;
         text-align: center;
+        font-size: 15px;
     }
 
     #planta-de-cima{

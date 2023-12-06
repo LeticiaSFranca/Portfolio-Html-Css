@@ -118,12 +118,12 @@ ul li.item-menu a .icon > i {
     background: #f0f0f0f0;
     border: 0;
     color: #0f0f0f;
-    padding: 20px;
+    padding: 2vw 3vw;
     width: 270px;
     text-align: center;
     font-size: 16px;
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 25px;
 
     display: flex;
     align-items: center;
@@ -139,8 +139,9 @@ ul li.item-menu a .icon > i {
 
 
 #minha-foto{
-    width: 170px;
+    width: 11vw;
     border-radius: 90%;
+    box-shadow: 1px 1px 50px #0f0f0f;
 }
 
 .icones-inicio{
@@ -150,15 +151,17 @@ ul li.item-menu a .icon > i {
 }
 
 #entrar-em-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #0f0f0f;
-    width: 200px;
-    height: 50px;
-    padding: 6px;
+    width: 12vw;
+    height: 7vh;
+    padding: 5px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 15px;
     border: 0;
     font-weight: bolder;
-
     margin-top: 10px;
 }
 
@@ -188,6 +191,13 @@ ul li.item-menu a .icon > i {
     flex-direction: row;
 }
 
+#icones-inicio>a>img:hover{
+    background-color: #A9B388;
+    transition: ease-in-out 0.5s;
+    padding: 1px;
+    border-radius: 20%;
+}
+
 #boas-vindas{
     color: #f0f0f0f0;
     font-size: 40px;
@@ -200,7 +210,7 @@ ul li.item-menu a .icon > i {
 }
 
 #sobre-mim{
-    padding: 30px 60px;
+    padding: 5vh 2vw;
     color: #f0f0f0f0;
     text-align: center;
     font-size: 18px;

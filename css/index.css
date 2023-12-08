@@ -15,7 +15,7 @@ body{
 
 #planta-de-cima{
     width: 30%;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 #planta-de-baixo{
@@ -141,7 +141,7 @@ ul li.item-menu a .icon > i {
 #minha-foto{
     width: 11vw;
     border-radius: 90%;
-    box-shadow: 1px 1px 50px #0f0f0f;
+    box-shadow: 1px 1px 50px #B6BBC4;
 }
 
 .icones-inicio{
@@ -206,15 +206,14 @@ ul li.item-menu a .icon > i {
     margin-top: 50px;
     text-align: center;
     font-weight: 900;
-    margin-top: -10px;
+    margin-top: 10vh;
 }
 
 #sobre-mim{
     padding: 5vh 2vw;
     color: #f0f0f0f0;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 #apresentacao{
@@ -223,38 +222,62 @@ ul li.item-menu a .icon > i {
     font-size: 17px;
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 5vh;
 }
 
 @media (max-width: 1080px){
 
     .inicio{
-        margin-top: 30px;
         margin-left: 50px;
     }
 
     #boas-vindas{
-        font-size: 20px;
-        padding: 0 20px;
+        margin-top: 2vh;
+        font-size: 30px;
+        padding: 2vh 10vw;
     }
     
     #apresentacao{
         padding: 10px 50px;
     }
 
+    #div-sobre-mim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #meu-card{
+        width: 50vw;
+        padding: 2vh 10vw;
+    }
+
+    #meu-nome{
+        font-size: 17px;
+    }
+
+    #minha-foto{
+        width: 30vw;
+    }
+
+    #entrar-em-contato{
+        width: 40vw;
+        height: 5vh;
+    }
+
     #sobre-mim{
-        padding: 30px 50px;
+        width: 70vw;
         text-align: center;
         font-size: 15px;
     }
 
     #planta-de-cima{
-        width: 50%;
-        margin-bottom: 40px;
+        width: 60%;
     }
     
     #planta-de-baixo{
         width: 50%;
-        margin-top: 30px;
     }
 
     nav.menu-lateral{

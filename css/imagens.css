@@ -19,8 +19,17 @@
     font-size: 50px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
-    margin-top: 30px;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
     text-align: center;
+}
+
+#carouselExampleIndicators{
+    width: 50%;
+}
+
+#carrossel-cartoes{
+    width: 35%;
 }
 
 .subtittles{
@@ -29,8 +38,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-align: center;
-   margin-top: 40px;
-   margin-bottom: 20px;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
 }
 
 /* Crachás Css */
@@ -79,22 +88,10 @@
     margin-top: 20px;
 }
 
-/* Logos Css */
-#imagem-logos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+/* Publicações Css */
+#div-publicacoes{
+    margin-top: 2vh;
 }
-
-#imagem-logos > div > img{
-    margin-right: 20px;
-    width: 200px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-/* Botão do Instagram */
 
 #btn-instagram{
     background-color: #f0f0f0f0;
@@ -106,8 +103,6 @@
     color: #0f0f0f;
     border: 0;
     font-weight: bolder;
-
-    margin-top: 30px;
 }
 
 #btn-instagram:hover{
@@ -129,6 +124,21 @@
 
 #icone-instagram{
     margin-right: 10px;
+}
+
+/* Logos Css */
+#imagem-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#imagem-logos > div > img{
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 @media (max-width: 1080px){

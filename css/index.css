@@ -69,7 +69,8 @@ ul li.item-menu.expandir{
 }
 
 ul li.ativo{
-    border: solid 2px;
+    border: solid 2px #BEADFA;
+    background-color: #BEADFA;
     border-radius: 40px;
     margin-right: 5px;
 }
@@ -192,7 +193,7 @@ ul li.item-menu a .icon > i {
 }
 
 #icones-inicio>a>img:hover{
-    background-color: #A9B388;
+    background-color: #BEADFA;
     transition: ease-in-out 0.5s;
     padding: 1px;
     border-radius: 20%;

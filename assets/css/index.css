@@ -44,7 +44,7 @@ nav.menu-lateral {
     width: 70px;
     height: 100%;
     background-color: transparent;
-    padding: 40vh 0 20vh 1%;
+    padding: 45vh 0 20vh 1%;
 
     position: fixed;
     top: 0;
@@ -230,7 +230,7 @@ color {
     margin-bottom: 5vh;
 }
 
-/* Formações - Projetos Visuais - Projetos Autônomos */
+/* Formações - Projetos Visuais - Projetos Autônomos - Estudando */
 
 .about-container .top-about{
     margin-bottom: 5vh;
@@ -311,6 +311,61 @@ color {
     background-color: var(--color-grey-5);
 }
 
+/* ----- */
+.about-container .contactar-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-container .contactar-about .about-item {
+    border: 1px solid var(--color-grey-5);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+.about-container .contactar-about .about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.32);
+}
+
+.about-container .contactar-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.about-container .contactar-about .about-item .abt-text .large-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.about-container .contactar-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #d4d4d4;
+    letter-spacing: 2px;
+}
+
+.about-container .contactar-about .about-item .abt-text .small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color: var(--color-grey-5);
+}
+
 .links-about {
     display: flex;
     align-items: center;
@@ -363,6 +418,9 @@ color {
     height: 2px;
     background-color: var(--color-grey-5);
 }
+
+/* ===== Contactar ===== */
+
 
 @media (max-width: 1080px) {
 

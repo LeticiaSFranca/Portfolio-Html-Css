@@ -12,7 +12,7 @@
 }
 
 #tittle{
-    color: #f0f0f0f0;
+    color: #ffffff;
     font-size: 50px;
     font-family: 'Lilita One', cursive;
     font-weight: 900;
@@ -21,63 +21,18 @@
 }
 
 #descricao-contactar{
-    color: #f0f0f0f0;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 0px 300px;
-}
-
-#btn-linktree{
-    /* background: linear-gradient(-60deg, #dc21db, #4ac0fc); */
-    background-color: #f0f0f0f0;
-    width: 200px;
-    height: 50px;
-    padding: 6px;
-    border-radius: 50px;
-    font-size: 16px;
-    color: #0f0f0f;
-    border: 0;
-    font-weight: bolder;
-
-    margin-top: 30px;
-}
-
-#btn-linktree:hover{
-    cursor: pointer;
-    background: transparent;
-    border: solid 2px #f0f0f0f0;
-    color: #f0f0f0;
-    transition: ease-in-out 0.5s;
-}
-
-#btn-linktree>a:hover{
-    color: #f0f0f0f0;
-}
-
-#btn-linktree>a{
-    color: #0f0f0f;
-    text-decoration: none;
-}
-
-#icone-linktree{
-    margin-right: 10px;
-    width: 20px;
+    color: #ffffff;
+    margin-top: 2   vh;
+    margin-bottom: 3vh;
 }
 
 /* ------ Formulário ------ */
 
-#logoContatos {
-    position: absolute;
-    margin-left: 320px;
-    margin-top: 50px;
-}
-
 #tituloContatos {
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #f0f0f0f0;
+    color: #ffffff;
 
     font-size: 30px;
     font-family: "Lilita One", sans-serif;
@@ -149,14 +104,14 @@
 }
 
 .formularioContato {
-    max-width: 600px;
+    max-width: 60vw;
     height: auto;
     float: none;
     margin: auto;
     padding: 20px;
     margin-bottom: 1em;
     border-radius: 40px;
-    border: solid 2px #f0f0f0f0;
+    border: 0;
     background-color: transparent;
     position: relative;
 }
@@ -184,29 +139,29 @@
 .formularioContato label span {
     width: 100%;
     float: left;
-    color: #f0f0f0f0;
+    color: #ffffff;
     font-weight: bolder;
     margin-bottom: 6px;
     font-family: 'Poppins', sans-serif;
 }
 
 .formularioContato label input {
-    background: transparent;
+    background: #2a2e35;
     font-size: 1em;
-    color: #f0f0f0;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     outline: none;
-    border: 2px #f0f0f0f0 solid;
+    border: 0;
     border-radius: 20px;
     padding: 0.6em;
     transition: 0.3s;
-    width: 40%;
+    width: 99%;
 }
 
 .formularioContato label select {
     font-size: 1em;
-    color: #f0f0f0;
-    border: 2px #f0f0f0f0 solid;
+    color: #ffffff;
+    border: 0;
     border-radius: 4px;
     padding: 0.6em;
     outline: none;
@@ -214,10 +169,10 @@
 }
 
 .formularioContato label textarea {
-    background: transparent;
+    background: #2a2e35;
     font-size: 1em;
-    color: #f0f0f0;
-    border: 2px #f0f0f0f0 solid;
+    color: #ffffff;
+    border: 0;
     border-radius: 20px;
     width: 99%;
     padding: 6px;
@@ -229,33 +184,34 @@
 }
 
 .formularioContato label input:focus {
-    border: 2px #f0f0f0f0 solid;
-    color: #f0f0f0;
+    border: 0;
+    /* box-shadow: 5px 5px 8px #ffffff; */
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 
 .formularioContato label select:focus {
-    border: 2px #f0f0f0f0 solid;
+    border: 2px #ffffff solid;
     font-family: 'Poppins', sans-serif;
 }
 
 .formularioContato label textarea:focus {
-    border: 2px #f0f0f0f0 solid;
-    color: #f0f0f0;
+    border: 2px #ffffff solid;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 
 .formularioContato button.btn-envia {
 
     background: transparent;
-    border: solid 2px #f0f0f0f0;
+    border: solid 2px #ffffff;
     width: 30%;
     padding: 10px 0;
     display: block;
     margin: auto;
     cursor: pointer;
     border-radius: 20px;
-    color: #f0f0f0f0;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -265,7 +221,7 @@
 }
 
 .formularioContato button.btn-envia:hover {
-    background: #f0f0f0f0;
+    background: #ffffff;
     transition: ease-in-out 0.5s;
     color: #0F0F0F;
 }

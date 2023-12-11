@@ -63,9 +63,8 @@
         <!-- Formulário -->
             
             <section id="contatos">
-
-                <div id="tituloContatos">Me envie uma mensagem:</div>
-                <p id="descricao-contactar">Ou preencha o formulário abaixo, que chega direto no meu email!</p>
+                <div id="tituloContatos">Me envie uma mensagem!</div>
+                <p id="descricao-contactar">Preenchendo o formulário abaixo, sua mensagem chega direto no meu email!</p>
             
                 <div class="formularioContato">
                   <form action="https://formsubmit.co/leticiasilvafranca17@gmail.com" method="post" enctype="multipart/form-data">
@@ -83,7 +82,7 @@
                     <label>
                       <span><i class="bi bi-telephone"></i> Telefone</span>
                       <input type="tel" name="celular" required placeholder="(31)91234-5678" id="telefone"
-                        oninput=mascara_telefone() maxlegth="14">
+                        onkeyup="handlePhone(event)" maxlegth="14">
                     </label>
             
                     <label>
@@ -100,7 +99,7 @@
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://lsfranca.netlify.app">
                     <button type="submit" class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o">
-                        Enviar Email</b></button>
+                        Enviar Email <i class="bi bi-send-fill"></i></b></button>
                   </form><br>
                 </div>
               </section>
@@ -109,4 +108,5 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </body>
+    <script src="./assets/js/index.js"></script>
 </html>

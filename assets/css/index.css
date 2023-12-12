@@ -60,7 +60,7 @@ nav.menu-lateral {
 
 ul li.item-menu a {
     color: #ffffff;
-    background: #176B87;
+    background: #BC9787;
     text-decoration: none;
     font-size: 16px;
     margin-right: 5vw;
@@ -71,6 +71,12 @@ ul li.item-menu a {
     margin-bottom: 5px;
     text-align: center;
     border-radius: 30px;
+}
+
+hr{
+    width: 50%;
+    margin: 0 25%;
+    border: solid 1px #BC9787;
 }
 
 ul li.item-menu a:hover {
@@ -137,17 +143,16 @@ color {
     letter-spacing: 1px;
 }
 
-
-#minha-foto {
-    width: 11vw;
-    border-radius: 90%;
-    box-shadow: 1px 1px 50px #B6BBC4;
+#foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.icones-inicio {
-    width: 30px;
-    margin-right: 15px;
-    cursor: pointer;
+#minha-foto {
+    width: 25vw;
+    /* text-shadow: 1px 1px 50px #B6BBC4; */
 }
 
 #entrar-em-contato {
@@ -162,18 +167,18 @@ color {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: solid 3px #176B87;
+    border-bottom: solid 3px #BC9787;
     margin-top: 10px;
 }
 
 #entrar-em-contato a {
-    color: #176B87;
+    color: #BC9787;
     text-decoration: none;
 }
 
 #entrar-em-contato:hover {
     cursor: pointer;
-    background: #176B87;
+    background: #BC9787;
     transition: ease-in-out 0.5s;
 }
 
@@ -186,18 +191,18 @@ color {
     margin-top: 2vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
 #icones-inicio>a {
-    font-size: 20px;
-    color: #176B87;
+    font-size: 25px;
+    color: #ffffff;
     margin-right: 1vw;
 }
 
 #icones-inicio>a>i:hover {
-    color: #0f0f0f;
+    color: #176B87;
     transition: ease-in-out 0.2s;
     padding: 4px;
     border-radius: 50%;
@@ -230,7 +235,71 @@ color {
     margin-bottom: 5vh;
 }
 
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 10vw;
+}
+
+#foto{
+    margin-right: 5vw;
+}
+
 /* Formações - Projetos Visuais - Projetos Autônomos - Estudando */
+
+.about-container .principal-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-container .principal-about .about-item {
+    border: 1px solid var(--color-grey-5);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+.about-container .principal-about .about-item:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px 4px 15px rgba(255, 255, 255, 0.32);
+}
+
+.about-container .principal-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .principal-about .about-item .abt-text .large-text {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.about-container .principal-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #d4d4d4;
+    letter-spacing: 2px;
+}
+
+.about-container .principal-about .about-item .abt-text .small-text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2rem;
+    height: 2px;
+    background-color: var(--color-grey-5);
+}
 
 .about-container .top-about{
     margin-bottom: 5vh;
@@ -311,7 +380,6 @@ color {
     background-color: var(--color-grey-5);
 }
 
-/* ----- */
 .about-container .contactar-about {
     display: flex;
     align-items: center;

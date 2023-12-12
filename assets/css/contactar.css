@@ -239,12 +239,8 @@
 /*Celular*/
     {
 
-    #contactar{
-        margin-left: 60px;
-    }
-
     .formularioContato {
-        max-width: 70%;
+        max-width: 100%;
     }
 
     .formularioContato label textarea {
@@ -293,5 +289,9 @@
 
     .formularioContato button.btn-envia {
         width: 50%;
+    }
+
+    .menu-lateral{
+        z-index: 7;
     }
 }

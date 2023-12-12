@@ -84,10 +84,6 @@ ul li.item-menu a:hover {
     transition: ease-in-out 0.5s;
 }
 
-ul li.item-menu a .txt-link {
-    margin-left: 20px;
-}
-
 ul li.item-menu a .icon>i {
     font-size: 25px;
     padding: 0 8px;
@@ -202,7 +198,7 @@ color {
 }
 
 #icones-inicio>a>i:hover {
-    color: #176B87;
+    color: #BC9787;
     transition: ease-in-out 0.2s;
     padding: 4px;
     border-radius: 50%;
@@ -492,10 +488,6 @@ color {
 
 @media (max-width: 1080px) {
 
-    .tudo {
-        margin-left: 50px;
-    }
-
     #boas-vindas {
         margin-top: 2vh;
         font-size: 30px;
@@ -523,7 +515,7 @@ color {
     }
 
     #minha-foto {
-        width: 30vw;
+        width: 60vw;
     }
 
     #entrar-em-contato {
@@ -543,22 +535,46 @@ color {
 
     #planta-de-baixo {
         width: 50%;
+        margin-top: -5vh;
+        margin-bottom: 10vh;
+    }
+
+    #entrar-em-contato{
+        margin-top: 3vh;
+    }
+
+    #about-me{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #small-text-descricao{
+        font-size: 12px;
+    }
+
+    #icones-inicio>a{
+        font-size: 30px;
+        margin-right: 3vw;
     }
 
     nav.menu-lateral {
-        width: 60px;
-    }
-
-    nav.menu-lateral:hover {
-        width: 200px;
-    }
-
-    .ul-menu {
+        width: 70px;
         height: 100%;
-        margin-top: 50px;
+        background-color: transparent;
+        padding: 40vh 0 20vh 1%;
+        
+        position: fixed;
+        bottom: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: ease-in-out 0.5s;
     }
 
-    ul li.item-menu a {
-        padding: 6px 8%;
+    .about-item{
+        margin-top: 1vh;
+        width: 90%;
     }
 }

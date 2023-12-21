@@ -10,3 +10,20 @@ const phoneMask = (value) => {
     value = value.replace(/(\d)(\d{4})$/, "$1-$2")
     return value
 }
+
+// -------------------------------
+
+(function () {
+    [...document.querySelectorAll(".control")].forEach(button => {
+        button.addEventListener("click", function() {
+            document.querySelector(".btn-envia").classList.remove("active-btn");
+            this.classList.add("btn-envia");
+            document.querySelector(".btn-envia").classList.remove("active");
+            document.getElementById(button.dataset.id).classList.add("active");
+        });
+    });
+
+    // document.querySelector(".theme-btn").addEventListener("click", () => {
+    //     document.body.classList.toggle("light-mode");
+    // });
+})();
